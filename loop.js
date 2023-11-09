@@ -76,3 +76,33 @@
 // let answer = 0;
 // decrease = numbers[i - 1] - numbers[0];
 // console.log(decrease);
+
+// Left pyramid pattern
+// let dollar = "$"
+// for (let i=0; i <= 5; i++){
+//     let sum = ""
+//     for (let j=i ; j <= 5; j++ ){
+//         sum += "$" 
+//     }console.log(sum)
+// }
+
+// Min Operations
+// const numbers = [1,2,3,4,5,6,7]
+// let sum =0
+// let average = 0
+// let uildel = 0
+// let uildel01 = 0
+// let totaluildel = 0
+// for (let i = 0; i < numbers.length; i++){
+//     sum = sum + numbers[i]
+//     average = sum / numbers.length
+// }
+// for(let j = 0; j < average; j++){
+//     uildel += 1
+//     console.log(uildel)
+// }
+// for(let k = numbers.length; k >= average; k--){
+//     uildel01 +=1  
+//     console.log(uildel01)
+// }  totaluildel = uildel + uildel01
+// console.log(totaluildel)
