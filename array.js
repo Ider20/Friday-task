@@ -69,16 +69,16 @@
 // console.log(numbers);
 
 // Find max and min
-const numbers = [1, 3, 5, 22, 89, 46, 17, 31];
-for (let i = 0; i < numbers.length; i++) {
-  for (let j = i; j < numbers.length; j++) {
-    if (numbers[i] < numbers[j]) {
-      let min = numbers[i];
-      numbers[i] = numbers[j];
-      numbers[j] = min;
-    }
-  }
-}
-let min = numbers.length - 1;
-console.log("Min number is -", numbers[min]);
-console.log("Max number is -", numbers[0]);
+// const numbers = [1, 3, 5, 22, 89, 46, 17, 31];
+// for (let i = 0; i < numbers.length; i++) {
+//   for (let j = i; j < numbers.length; j++) {
+//     if (numbers[i] < numbers[j]) {
+//       let min = numbers[i];
+//       numbers[i] = numbers[j];
+//       numbers[j] = min;
+//     }
+//   }
+// }
+// let min = numbers.length - 1;
+// console.log("Min number is -", numbers[min]);
+// console.log("Max number is -", numbers[0]);

@@ -49,3 +49,59 @@
 //   return answer;
 // }
 // console.log(logic(6));
+
+// Find the longest word?????????
+// findLongestWord("The quick brown fox jumps over the lazy dog");
+// function findLongestWord(words) {
+//   const wordsArray = words.split(" ");
+//   console.log(wordsArray);
+//   let longWord = "";
+//   for (let i = 0; i < wordsArray.length; i++) {
+//     if (wordsArray[i].length > longWord) {
+//       console.log(wordsArray[i].length);
+//       longWord = wordsArray[i].length;
+//       console.log(longWord);
+//     }
+//   }
+//   console.log(wordsArray[longWord]);
+//   return longWord;
+// }
+
+// Mini calculator
+// function miniCalc(x, y) {
+//   let sum = x + y;
+//   let minus = x - y;
+//   return [sum, minus];
+// }
+// console.log(miniCalc(10, 4));
+
+// Palendrom words --------------------------
+// function palindrome(string) {
+//   let strArray = string.split("");
+//   let reverseArray = strArray.reverse();
+//   for (let i = 0; i < strArray.length; i++) {
+//     if (strArray[i] == reverseArray[i]) {
+//       console.log("palendrome");
+//     }
+//   }
+// }
+
+// palindrome("raceca");
+// function palindrome(str) {
+//   const len = str.length;
+//   for (let i = 0; i < len / 2; i++) {
+//     if (str[i] !== str[len - 1 - i]) {
+//       console.log("It is not a palindrome");
+//     } else {
+//       console.log("It is a palindrome");
+//     }
+//   }
+// }
+
+// Remove vowels
+// removeVowels("I like Pinecone");
+// function removeVowels(words) {
+//   let remove = 0;
+//   remove = words.replace(/[aeiou]/gi, "");
+//   console.log(remove);
+// }
