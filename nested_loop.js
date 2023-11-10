@@ -88,11 +88,14 @@
 // }
 
 // 3)
+console.log(dollars)
 for (let i = 0; i < 5; i++) {
   let sum = "";
-  sum += " ";
+  
   for (let j = 0; j < 5; j++) {
+    sum += " ";
     sum += "$";
+   
   }
   console.log(sum);
 }

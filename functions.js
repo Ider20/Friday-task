@@ -13,23 +13,23 @@
 // findArea(5, 6, 8);
 
 // Давхцал
-// erase("aaaabbbcccd")
-// function erase(string) {
-//   const array = string.split("");
-//   let l = array.length ;
-//   for (let i = 0; i <= l; i++) {
-//     for (let j = 0; j <= l; j++) {
-//       if (array[i] == array[j]) {
-//         if(i == j){
-//           continue;
-//         }
-//         array.splice(j, 1)
-//      }
-//     }
-//    }
-// console.log(array);
-// return array;
-// }
+erase("aabbccd")
+function erase(string) {
+  const array = string.split("");
+  let l = array.length ;
+  for (let i = 0; i <= l; i++) {
+    for (let j = 0; j <= l; j++) {
+      if (array[i] == array[j]) {
+        if(i == j){
+          continue;
+        }
+        array.splice(j, 1)
+     }
+    }
+   }
+console.log(array);
+return array;
+}
 
 // function erase() {
 //   for (let i = 0; i <= array.length; i++) {
