@@ -82,3 +82,12 @@
 // let min = numbers.length - 1;
 // console.log("Min number is -", numbers[min]);
 // console.log("Max number is -", numbers[0]);
+// --------------------------------------------------
+// Hard
+
+// let numbers =[1,1,1,1,1]
+// let count = 5
+// for (i=0; i < numbers.lenght; i++){
+//     numbers.pop()
+//     numbers.unshift(5)
+// }console.log(numbers)
