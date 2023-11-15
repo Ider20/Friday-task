@@ -56,11 +56,26 @@
 // const long = names.filter(el => el.length > 7)
 // console.log(long)
 
-// 9)
-const numbers = [1,2,3,4,5,6,7,11,13,17,16,10,20,30,40]
-const primeNumbers = numbers.filter(el => el % 2 !== 0 && el !== 1)
-console.log(primeNumbers)
+// // 9)
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 11, 13, 17, 16, 10, 20, 30, 40];
+// const primeNumbers = numbers.filter((el, i) => el % i == 0 && el !== 1);
+// console.log(primeNumbers);
 
-// 10)
-const words = ["kjhgadfkjh", "wjhsdfkjhg", "khasldkjh"]
-const specWord = words.filtrer(el => )
+// // 10)
+// const words = ["kjhgadfkjh", "wjhsdfkjhg", "khasldkjh"]
+// const specWord = words.filtrer(el => )
+
+function Prime(x) {
+  if (x <= 1) {
+    let no = false;
+  }
+  for (let i = 0; i < x; i++) {
+    if (x % i == 0) {
+      let Numbers = false;
+      let primeNumbers = 0;
+      primeNumbers = +[Numbers];
+    }
+    return primeNumbers;
+  }
+}
+console.log(Prime(20));
