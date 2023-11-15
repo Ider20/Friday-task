@@ -67,15 +67,12 @@
 
 function Prime(x) {
   if (x <= 1) {
-    let no = false;
+    let no = 0 
+    no = false;
   }
   for (let i = 0; i < x; i++) {
     if (x % i == 0) {
-      let Numbers = false;
-      let primeNumbers = 0;
-      primeNumbers = +[Numbers];
     }
-    return primeNumbers;
   }
 }
 console.log(Prime(20));
