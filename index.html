@@ -35,10 +35,12 @@
       <button onclick="changeBTN()">Үг солих</button>
     </div>
     <!-- Colorful circle -->
-    <div class="colorcircle">
-      <input type="text" />
-      <button>Бөөрөнхий үүсгэх</button>
+    <div id="colorcircle">
+      <input type="text" id="circle_input" onclick="reEnter()" />
+      <button onclick="circle()">Бөөрөнхий үүсгэх</button>
+      <div id="inner_circle"></div>
     </div>
+    <script src="./DOM_colorfulCircle.js"></script>
     <script src="./DOM_changeText.js"></script>
     <script src="./DOM_exersice.js"></script>
     <script src="DOM_Additional_game.js"></script>
