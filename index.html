@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./DOM_exersice.css">
-</head>
-<body>
-    <div id="container">
-
+    <link rel="stylesheet" href="./DOM_exersice.css" />
+  </head>
+  <body>
+    <!-- Add Element -->
+    <div class="first">
+      <div id="container"></div>
+      <button onclick="addBTN()" class="tovchluur">Нэмэх</button>
     </div>
-    <button onclick="addBTN()" id="tovchluur">Nemeh</button>
+    <!-- Additional Game -->
+    <div class="second">
+      <div>
+        <input type="number" name="" id="input01" class="input01" />
+        <input type="number" name="" id="input02" class="input02" />
+        <input type="text" name="" id="input03" class="input03" />
+      </div>
+      <div>
+        <button id="checking" onclick="match()">Шалгах</button>
+        <button id="refresh" onclick="random()">Шинэчлэх</button>
+      </div>
+    </div>
+    <!-- Change background color -->
+    <div id="background">
+      <button id="change_color" onclick="changeColor()">Өнгө солих</button>
+    </div>
+    <!-- Change text -->
+    <div class="change_text">
+      <h1 id="ch_title">Welcome to Pinecone!</h1>
+      <p id="ch_par">Please change me!!!</p>
+      <button onclick="changeBTN()">Үг солих</button>
+    </div>
+    <!-- Colorful circle -->
+    <div class="colorcircle">
+      <input type="text" />
+      <button>Бөөрөнхий үүсгэх</button>
+    </div>
+    <script src="./DOM_changeText.js"></script>
     <script src="./DOM_exersice.js"></script>
-</body>
+    <script src="DOM_Additional_game.js"></script>
+    <script src="DOM_ChangeBackgroundColor.js"></script>
+  </body>
 </html>

@@ -1,9 +1,6 @@
-// document.body.appendChild(card)
+// Easy
+// Add Element
 const container = document.getElementById("container");
-// console.log(container)
-// // document.body.div[0].classList.add()
-// card.classList.add("class")
-// card.innerText = "1"
 let i = 0;
 function addBTN() {
   const btn = document.getElementById("tovchluur");

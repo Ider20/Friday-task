@@ -1,20 +1,104 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
-/* div{
-    width: 20px;
-    height: 20px;
-    background-color: yellow;
-} */
-.class{
-    width: 100px;
-    height: 100px;
-    background-color: yellow
-    ;
+body {
+  width: 70%;
+  margin: auto;
 }
-#container{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.class {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  height: 180px;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.tovchluur {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+/* part2 */
+.second {
+  width: 70%;
+  margin-top: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(185, 185, 185);
+  gap: 20px;
+  padding: 20px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+}
+.second > div > input {
+  width: 100px;
+  height: 30px;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+.second > div > button:first-child {
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+.second > div > button:last-child {
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+/* Change color */
+#background {
+  width: 70%;
+  height: 200px;
+  background-color: rgb(185, 185, 185);
+  margin: auto;
+  padding: 20px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#change_color {
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+/* Change text */
+.change_text {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  background-color: rgb(185, 185, 185);
+  border-radius: 7px;
+  padding: 20px;
+}
+.change_text > button {
+  cursor: pointer;
 }
