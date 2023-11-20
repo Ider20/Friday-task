@@ -2,6 +2,9 @@ let parent = document.getElementById("inner_circle");
 let numbers = document.getElementById("circle_input");
 let array = [];
 let n = 0;
+
+const width = getComputedStyle(document.querySelector("#mainbar")).width;
+console.log("width", width);
 // function circleColor() {
 //   n++;
 //   let background = "linear-garden";
@@ -15,12 +18,15 @@ let n = 0;
 // console.log(circleColor);
 function circle() {
   for (let i = 0; i < numbers.value; i++) {
-    n = n + i / 3;
     generateCircle = document.createElement("div");
-    generateCircle.style.background =
-      "linear-gradient(180deg,rgba(128, 36, 113, 1) 0%,rgba(255, 255, 255, 1)" +
-      n +
-      "%";
+    generateCircle.style.backgroundColor;
+    let color01 = 73 - i * 6;
+    let color02 = 218 - i * 6;
+    let color03 = 255 - i * 6;
+    generateCircle.style.background = `rgb(${color01}, ${color02}, ${color03})`;
+    // "linear-gradient(180deg,rgba(128, 36, 113, 1) 0%,rgba(255, 255, 255, 1)" +
+    //   n +
+    //   "%";
     console.log(generateCircle.style.background);
     parent.appendChild(generateCircle);
     generateCircle.classList.add("circle");
