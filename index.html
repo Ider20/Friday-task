@@ -44,7 +44,7 @@
     <div class="dynamic_search">
       <h1>Dynamic search filter</h1>
       <input type="text" name="" id="searchFruit" />
-      <ul id="fruitlist">
+      <ul id="fruitList">
         <li>Cherry</li>
         <li>Apple</li>
         <li>Watermelon</li>
@@ -54,6 +54,71 @@
         <li>Orange</li>
       </ul>
     </div>
+    <!-- Image scroll -->
+    <div class="gallery">
+      <p id="backBtn">
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      </p>
+      <div class="gallery_scroll">
+        <span
+          ><img
+            src="./6F0904A3-CA17-4AEE-BD4D-599BB52C6C1A.PNG"
+            alt=""
+            class="image"
+        /></span>
+        <span
+          ><img
+            src="./6F0904A3-CA17-4AEE-BD4D-599BB52C6C1A.PNG"
+            alt=""
+            class="image"
+        /></span>
+        <span
+          ><img
+            src="./6F0904A3-CA17-4AEE-BD4D-599BB52C6C1A.PNG"
+            alt=""
+            class="image"
+        /></span>
+        <span
+          ><img
+            src="./6F0904A3-CA17-4AEE-BD4D-599BB52C6C1A.PNG"
+            alt=""
+            class="image"
+        /></span>
+        <span
+          ><img
+            src="./6F0904A3-CA17-4AEE-BD4D-599BB52C6C1A.PNG"
+            alt=""
+            class="image"
+        /></span>
+        <span
+          ><img
+            src="./6F0904A3-CA17-4AEE-BD4D-599BB52C6C1A.PNG"
+            alt=""
+            class="image"
+        /></span>
+      </div>
+      <p id="nextBtn">
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      </p>
+    </div>
+    <!-- To do list -->
+    <div id="listoftask">
+      <h1>To-Do List</h1>
+      <input type="text" id="toDoInput" />
+      <button id="todolist" onclick="addText()">Add task</button>
+      <div style="color: white">TASKS:</div>
+      <!-- <button id="deletetodo">Delete</button> -->
+    </div>
+    <!-- Shapes -->
+    <div class="shapes" onclick="onclick()" ondblclick="">
+      <div>square</div>
+      <div id="circle">circle</div>
+      <div>triangle</div>
+      <!-- <canvas id="squareshape"></canvas> -->
+    </div>
+    <script src="./DOM_Shapes.js"></script>
+    <script src="./DOM_toDoList.js" defer></script>
+    <script src="./DOM_imageScroll.js"></script>
     <script src="DOM_DynamicSearchFilter.js"></script>
     <script src="./DOM_colorfulCircle.js"></script>
     <script src="./DOM_changeText.js"></script>
