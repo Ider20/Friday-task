@@ -20,7 +20,7 @@ function circle() {
   for (let i = 0; i < numbers.value; i++) {
     generateCircle = document.createElement("div");
     generateCircle.style.backgroundColor;
-    let color01 = 73 - i * 6;
+    let color01 = 288 - i * 6;
     let color02 = 218 - i * 6;
     let color03 = 255 - i * 6;
     generateCircle.style.background = `rgb(${color01}, ${color02}, ${color03})`;

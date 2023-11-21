@@ -10,12 +10,13 @@ function addText() {
   if (inputToDO.value === "") {
     alert("Ажлын нэрээ оруулна уу!");
   } else {
-    pElement = document.createElement("p");
+    pElement = document.createElement("li");
     let tNode = document.createTextNode(inputToDO.value);
     pElement.appendChild(tNode);
     pElement.style.color = "white";
     pElement.setAttribute("class", "list");
     pElement.setAttribute("id", num);
+    console.log(toDoList.children);
     let test = document.getElementsByClassName("list");
     // console.log(test);
     console.log(pElement);
@@ -23,7 +24,7 @@ function addText() {
     // delete button
     let span = document.createElement("span");
     btn = document.createElement("button");
-    btn.setAttribute("onclick", "deleteBtn()");
+    btn.setAttribute("onclick", "deleteBtn(this)");
     btn.setAttribute("id", num);
     num++;
     btn.innerText = "Delete";
@@ -39,14 +40,16 @@ function addText() {
   //   toDoList.this.removeChild(pElement);
   // });
 }
-function deleteBtn(event) {
-  const paragraphs = document.getElementsByTagName("p");
-  console.log(paragraphs);
+function deleteBtn(e) {
+  console.log("e", e);
+  let parent = e.parentNode.parentNode.parentNode;
+  console.log("parent", parent);
+  let child = e.parentNode.parentNode;
+  parent.removeChild(child);
+
   // for (i = 0; i < paragraphs.length; i++){
   //   if()
   // }
-  toDoList.removeChild(pElement);
-  console.log(toDoList);
 }
 //   console.log(pElement);
 

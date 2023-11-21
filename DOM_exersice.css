@@ -209,7 +209,7 @@ body {
 #listoftask > h1 {
   color: white;
 }
-#listoftask > p {
+.list {
   width: 50%;
   display: flex;
   justify-content: space-between;
