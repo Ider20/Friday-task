@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width==device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./drag.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="tiles">
+      <div
+        id="number01"
+        class="tile"
+        draggable="true"
+        ondragstart="dragStart(event)"
+      >
+        number01
+      </div>
+      <div id="number02" class="tile" draggable="true">number02</div>
+      <div id="number03" class="tile" draggable="true">number03</div>
+    </div>
+    <div class="dropbox"></div>
+    <p id="demo"></p>
+    <script src="./drag.js"></script>
+  </body>
+</html>
